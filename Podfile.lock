@@ -1,0 +1,20 @@
+PODS:
+  - Kanna (4.0.3)
+  - TVVLCKit (3.3.0)
+
+DEPENDENCIES:
+  - Kanna (~> 4.0.0)
+  - TVVLCKit (= 3.3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kanna
+    - TVVLCKit
+
+SPEC CHECKSUMS:
+  Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
+  TVVLCKit: 91e282b7f9a8f066762d4ec5907d44bd71feb1fc
+
+PODFILE CHECKSUM: 359ebc368eb0672abe8df98647f74415b3283289
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8D4565C971EB8D235AFDAA /* Pods_KLiveAppleTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27DB7ADCE43C870DCAD4B0 /* Pods_KLiveAppleTV.framework */; };
+		D2197A24224E80E900E7528D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2197A23224E80E900E7528D /* AppDelegate.swift */; };
+		D2197A26224E80E900E7528D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2197A25224E80E900E7528D /* ViewController.swift */; };
+		D2197A29224E80E900E7528D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2197A27224E80E900E7528D /* Main.storyboard */; };
+		D2197A2B224E80EB00E7528D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2197A2A224E80EB00E7528D /* Assets.xcassets */; };
+		D2197A35224E82C500E7528D /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2197A32224E82C500E7528D /* GridViewCell.swift */; };
+		D2197A36224E82C500E7528D /* TVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2197A33224E82C500E7528D /* TVViewController.swift */; };
+		D2197A38224E835D00E7528D /* TVVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2197A37224E835D00E7528D /* TVVLCKit.framework */; };
+		D2197A3A224E837F00E7528D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2197A39224E837F00E7528D /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A49B57C11D02BA9CB7AA7FE2 /* Pods-KLiveAppleTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLiveAppleTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLiveAppleTV/Pods-KLiveAppleTV.debug.xcconfig"; sourceTree = "<group>"; };
+		D2197A20224E80E900E7528D /* KLiveAppleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLiveAppleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2197A23224E80E900E7528D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2197A25224E80E900E7528D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2197A28224E80E900E7528D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2197A2A224E80EB00E7528D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2197A2C224E80EB00E7528D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2197A32224E82C500E7528D /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		D2197A33224E82C500E7528D /* TVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVViewController.swift; sourceTree = "<group>"; };
+		D2197A37224E835D00E7528D /* TVVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVVLCKit.framework; path = Pods/TVVLCKit/TVVLCKit.framework; sourceTree = "<group>"; };
+		D2197A39224E837F00E7528D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D2197A3B224E83FE00E7528D /* KLiveAppleTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLiveAppleTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5E63082C6131B0674411367 /* Pods-KLiveAppleTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLiveAppleTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLiveAppleTV/Pods-KLiveAppleTV.release.xcconfig"; sourceTree = "<group>"; };
+		FF27DB7ADCE43C870DCAD4B0 /* Pods_KLiveAppleTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLiveAppleTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2197A1D224E80E900E7528D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197A3A224E837F00E7528D /* libc++.tbd in Frameworks */,
+				2F8D4565C971EB8D235AFDAA /* Pods_KLiveAppleTV.framework in Frameworks */,
+				D2197A38224E835D00E7528D /* TVVLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0171E99A157C8AB9AF115D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A49B57C11D02BA9CB7AA7FE2 /* Pods-KLiveAppleTV.debug.xcconfig */,
+				F5E63082C6131B0674411367 /* Pods-KLiveAppleTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99690FCC2D3381A6CB51FBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2197A39224E837F00E7528D /* libc++.tbd */,
+				FF27DB7ADCE43C870DCAD4B0 /* Pods_KLiveAppleTV.framework */,
+				D2197A37224E835D00E7528D /* TVVLCKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2197A17224E80E900E7528D = {
+			isa = PBXGroup;
+			children = (
+				D2197A3B224E83FE00E7528D /* KLiveAppleTV-Bridging-Header.h */,
+				D2197A22224E80E900E7528D /* KLiveAppleTV */,
+				D2197A21224E80E900E7528D /* Products */,
+				0171E99A157C8AB9AF115D97 /* Pods */,
+				99690FCC2D3381A6CB51FBA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2197A21224E80E900E7528D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2197A20224E80E900E7528D /* KLiveAppleTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2197A22224E80E900E7528D /* KLiveAppleTV */ = {
+			isa = PBXGroup;
+			children = (
+				D2197A32224E82C500E7528D /* GridViewCell.swift */,
+				D2197A33224E82C500E7528D /* TVViewController.swift */,
+				D2197A23224E80E900E7528D /* AppDelegate.swift */,
+				D2197A25224E80E900E7528D /* ViewController.swift */,
+				D2197A27224E80E900E7528D /* Main.storyboard */,
+				D2197A2A224E80EB00E7528D /* Assets.xcassets */,
+				D2197A2C224E80EB00E7528D /* Info.plist */,
+			);
+			path = KLiveAppleTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2197A1F224E80E900E7528D /* KLiveAppleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2197A2F224E80EB00E7528D /* Build configuration list for PBXNativeTarget "KLiveAppleTV" */;
+			buildPhases = (
+				DF18267E3BB276646BE5FDAE /* [CP] Check Pods Manifest.lock */,
+				D2197A1C224E80E900E7528D /* Sources */,
+				D2197A1D224E80E900E7528D /* Frameworks */,
+				D2197A1E224E80E900E7528D /* Resources */,
+				BF547108CD1E9DAA6C853E0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLiveAppleTV;
+			productName = KLiveAppleTV;
+			productReference = D2197A20224E80E900E7528D /* KLiveAppleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2197A18224E80E900E7528D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "sangpyo hong";
+				TargetAttributes = {
+					D2197A1F224E80E900E7528D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = D2197A1B224E80E900E7528D /* Build configuration list for PBXProject "KLiveAppleTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2197A17224E80E900E7528D;
+			productRefGroup = D2197A21224E80E900E7528D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2197A1F224E80E900E7528D /* KLiveAppleTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2197A1E224E80E900E7528D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197A2B224E80EB00E7528D /* Assets.xcassets in Resources */,
+				D2197A29224E80E900E7528D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF547108CD1E9DAA6C853E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KLiveAppleTV/Pods-KLiveAppleTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLiveAppleTV/Pods-KLiveAppleTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF18267E3BB276646BE5FDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLiveAppleTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2197A1C224E80E900E7528D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2197A26224E80E900E7528D /* ViewController.swift in Sources */,
+				D2197A24224E80E900E7528D /* AppDelegate.swift in Sources */,
+				D2197A36224E82C500E7528D /* TVViewController.swift in Sources */,
+				D2197A35224E82C500E7528D /* GridViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2197A27224E80E900E7528D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2197A28224E80E900E7528D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2197A2D224E80EB00E7528D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		D2197A2E224E80EB00E7528D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2197A30224E80EB00E7528D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49B57C11D02BA9CB7AA7FE2 /* Pods-KLiveAppleTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HVB464Z9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TVVLCKit",
+				);
+				INFOPLIST_FILE = KLiveAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyongpyong.home.KLiveAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KLiveAppleTV-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		D2197A31224E80EB00E7528D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E63082C6131B0674411367 /* Pods-KLiveAppleTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HVB464Z9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TVVLCKit",
+				);
+				INFOPLIST_FILE = KLiveAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyongpyong.home.KLiveAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KLiveAppleTV-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2197A1B224E80E900E7528D /* Build configuration list for PBXProject "KLiveAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2197A2D224E80EB00E7528D /* Debug */,
+				D2197A2E224E80EB00E7528D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2197A2F224E80EB00E7528D /* Build configuration list for PBXNativeTarget "KLiveAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2197A30224E80EB00E7528D /* Debug */,
+				D2197A31224E80EB00E7528D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2197A18224E80E900E7528D /* Project object */;
+}
