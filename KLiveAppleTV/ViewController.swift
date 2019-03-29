@@ -91,7 +91,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             jsonlink = jsonlink.replacingOccurrences(of: " tvg-logo=", with: ",\"tvglogo\":", options: .literal, range: nil)
             jsonlink = jsonlink.replacingOccurrences(of: " group-title=", with: ",\"grouptitle\":", options: .literal, range: nil)
             jsonlink = jsonlink.replacingOccurrences(of: "11.12.13.104", with: "murakano99.asuscomm.com", options: .literal, range: nil)
-            if(jsonlink.contains("radio")){
+            if(jsonlink.contains("POOQ RADIO") || jsonlink.contains("OKSUSU RADIO")){
                 jsonlink = jsonlink.replacingOccurrences(of: " radio=", with: ",\"radio\":", options: .literal, range: nil)
             }
             else{
